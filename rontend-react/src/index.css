@@ -1,0 +1,106 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --pz-black: #1c1c1c;
+  --pz-yellow: #f5b400;
+  --pz-yellow-dark: #d99e00;
+  --pz-red: #e53935;
+  --pz-green: #43a047;
+  --pz-bg: #f7f7f5;
+  --pz-card-border: #e4e2dd;
+  --pz-text: #2b2b2b;
+  --pz-muted: #737373;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: var(--pz-bg);
+  color: var(--pz-text);
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4 { margin: 0 0 8px 0; font-weight: 700; }
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 20px 60px;
+}
+
+.btn {
+  border-radius: 4px;
+  padding: 10px 22px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: transform 0.08s ease, opacity 0.15s ease;
+}
+.btn:active { transform: scale(0.97); }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.btn-primary {
+  background: var(--pz-yellow);
+  color: var(--pz-black);
+}
+.btn-primary:hover:not(:disabled) { background: var(--pz-yellow-dark); }
+
+.btn-dark {
+  background: var(--pz-black);
+  color: #fff;
+}
+.btn-dark:hover:not(:disabled) { background: #333; }
+
+.footer {
+  text-align: center;
+  color: var(--pz-yellow);
+  /* background: var(--pz-black); */
+  font-size: 0.85rem;
+  padding: 14px 0;
+  margin-top: 40px;
+
+  /* position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; */
+  
+}
+
+.status-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}
+.status-dot.mild { background: var(--pz-green); }
+.status-dot.spicy { background: var(--pz-red); }
+
+.error-banner {
+  background: #fdecea;
+  border: 1px solid var(--pz-red);
+  color: #7a1f1f;
+  padding: 10px 14px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+}
+
+.empty-state {
+  text-align: center;
+  color: var(--pz-muted);
+  padding: 60px 20px;
+  font-size: 1.05rem;
+}
+
+/* accessibility */
+:focus-visible {
+  outline: 2px solid var(--pz-yellow-dark);
+  outline-offset: 2px;
+}

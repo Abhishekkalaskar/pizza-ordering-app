@@ -1,0 +1,103 @@
+[
+    {
+        "name": "Paneer Tikka",
+        "description": "This is a popular Italian pizza flavoured with marinated tikka sauce and paneer",
+        "price": 290,
+        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80",
+        "spiceLevel": "mild",
+        "ingredients": [
+            "dough/flour",
+            "pizza sauce",
+            "pizza seasoning",
+            "cheese"
+        ],
+        "toppings": [
+            "Paneer",
+            "Fried Onion",
+            "Green olive",
+            "Capsicum",
+            "Red paprika"
+        ]
+    },
+    {
+        "name": "Chicken Italiana",
+        "description": "This is a popular Italian pizza flavoured with light sugary taste and creamy touch",
+        "price": 350,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300&q=80",
+        "spiceLevel": "spicy",
+        "ingredients": [
+            "deep dish pizza mix",
+            "pizza sauce",
+            "pizza seasoning",
+            "cheese"
+        ],
+        "toppings": [
+            "Pepperoni",
+            "Chicken Sausage",
+            "Mushroom",
+            "Capsicum",
+            "Black beans"
+        ]
+    },
+    {
+        "name": "Veggie Supreme",
+        "description": "This is a popular Italian pizza flavoured with crushed garlic and multiple herbs",
+        "price": 310,
+        "image": "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=300&q=80",
+        "spiceLevel": "mild",
+        "ingredients": [
+            "deep dish pizza mix",
+            "pizza sauce",
+            "pizza seasoning",
+            "cheese"
+        ],
+        "toppings": [
+            "Fried Onion",
+            "Sweet corn",
+            "Mushroom",
+            "Capsicum",
+            "Black olive"
+        ]
+    },
+    {
+        "name": "Triple Chicken Feast",
+        "description": "This is a popular Italian pizza topped with chicken keema and meatball",
+        "price": 400,
+        "image": "https://images.unsplash.com/photo-1601924582970-9238bcb495d9?w=300&q=80",
+        "spiceLevel": "spicy",
+        "ingredients": [
+            "low carb dough",
+            "pizza sauce",
+            "pizza seasoning",
+            "cheese"
+        ],
+        "toppings": [
+            "Chicken keema",
+            "Fried Onion",
+            "Chicken Meat ball",
+            "Capsicum",
+            "Sweet corn"
+        ]
+    },
+    {
+        "name": "Ultimate Chicken",
+        "description": "Pizza flavoured with BBQ sauce and flavoured butter",
+        "price": 625,
+        "image": "https://images.unsplash.com/photo-1548369937-47519962c11a?w=300&q=80",
+        "spiceLevel": "spicy",
+        "ingredients": [
+            "deep dish pizza mix",
+            "pizza sauce",
+            "pizza seasoning",
+            "cheese",
+            "BBQ sauce"
+        ],
+        "toppings": [
+            "Pepperoni",
+            "Fried Onion",
+            "Chicken Meat ball",
+            "Chicken Sausage",
+            "Chicken keema"
+        ]
+    }
+]

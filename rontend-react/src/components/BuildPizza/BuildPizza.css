@@ -1,0 +1,94 @@
+/* .intro {
+  color: #555;
+  margin-bottom: 20px;
+  max-width: 700px;
+} */
+
+.intro {
+  color: #555;
+  margin-bottom: 20px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.success-banner {
+  background: #eaf6ea;
+  border: 1px solid var(--pz-green);
+  color: #1e5c1e;
+  padding: 10px 14px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+}
+
+.ingredient-table {
+  
+  width: 100%;
+  max-width: 640px;
+  background: #fff;
+  border: 2px solid var(--pz-card-border);
+  border-collapse: collapse;
+
+  /*  */
+  margin: 0 auto; 
+ 
+}
+
+.ingredient-table tr {
+  border-bottom: 1px solid var(--pz-card-border);
+}
+
+.ingredient-table tr:last-child { border-bottom: none; }
+
+.ing-img-cell {
+  width: 56px;
+  padding: 10px 12px;
+}
+
+.ing-img-cell img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.ing-name-cell {
+  padding: 10px 12px;
+  font-size: 0.92rem;
+}
+
+.ing-check-cell {
+  width: 90px;
+  padding: 10px 12px;
+  text-align: right;
+}
+
+.checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--pz-yellow-dark);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.total-row {
+  max-width: 640px;
+  padding: 14px 12px;
+  font-size: 1.05rem;
+  color: #1a3d8f;
+  /*  */
+  margin: 0 auto;
+  text-align: center; 
+}
+
+.build-btn {
+  margin-top: 6px;
+  /*  */
+  display: block;               
+  margin-left: auto;            
+  margin-right: auto; 
+}
+
